@@ -1,0 +1,57 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-image: URL("C:\Users\Srima\Desktop\surya\react\my_project\src\components\final4.jpeg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 0px;
+    }*/
+login.{
+    margin-left: 500px;
+    float: 0px;
+    padding:25px;
+    height:550px;
+    padding-left:10;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    width:400px;
+    border:5px solid black;
+    background-color: rgb(224, 235, 235);
+    display:flexbox;
+    float:left;
+    
+}
+input,#password{
+    width:350px;
+}
+    
+label {
+    padding:0px;
+    display:flexbox;
+    margin-bottom: 10px;
+    height:0px;
+    }
+    
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    }
+    
+button[type="submit"] {
+        width: 40%;
+        padding: 10px;
+        background-color: #cb4949;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        }
+        
+ button[type="submit"]:hover {
+        background-color: #555;
+        }
+/*h2{
+    color: rgb(31, 229, 229);
+    font-size:40px;
+    margin-top: 1px;
+}*/

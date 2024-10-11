@@ -1,0 +1,42 @@
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #3fa2cc; 
+    font-size: 30px;
+}
+h3{
+    font-size: 50px;
+    color:#060404;
+}
+p1 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    line-height: 1.6;
+    margin-left: 300px;
+    padding:10px;
+    width:800px;
+    font-size: 1.2em;
+    display: inline-block;
+    /*border:3px solid #4bd5e4,white;
+    background:linear-gradient(#4bd5e4,white);*/
+  
+}
+
+.location p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.team li {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #060404; /* Lighter white for team list items */
+}

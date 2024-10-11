@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjusted to cover for better aesthetics */
+  padding: 2px;
+}
+
+form {
+  width: 50%;
+  margin: 30px auto;
+  padding: 15px;
+  border: 3px solid #76b8ea; /* Added color for visibility */
+  background-color: rgb(224, 235, 235);
+}
+
+h1 {
+  margin: 20px 0;
+  color: rgb(16, 17, 17);
+}
+
+label {
+  color: #100e0e;
+  font-size: larger;
+}
+
+button1[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  background-color: #cb4949;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button1[type="submit"]:hover {
+  background-color: #d46b6b;
+}
+
+img {
+  margin-top: 30px;
+  width: 600px; /* Increased width */
+  height: 400px; /* Increased height */
+  border: 3px solid #050505;
+  border-radius: 8px; /* Added border radius for aesthetics */
+  overflow: hidden; /* Ensures no overflow from borders */
+  display: block; /* Ensures no space below images */
+}
+
+img:hover {
+  border: 3px solid #b92a2a; /* Highlight on hover */
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.order-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.cart-box {
+  width: 300px;
+  height: 100px;
+  margin-right: 100px;
+  margin-top: 400px;
+  border: 3px solid #111010;
+  padding: 16px;
+  background-color: #f2f8f8;
+}
+
+.cart-box h2 {
+  margin-top: 0;
+}
